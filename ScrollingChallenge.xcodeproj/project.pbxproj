@@ -19,7 +19,6 @@
 		BE73443B1A0ED4DA00BB04B8 /* desert_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73443A1A0ED4DA00BB04B8 /* desert_BG@2x.png */; };
 		BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF8294B1A0ED6E6003EE93B /* TileNode.m */; };
 		BEF8294F1A0EDA2B003EE93B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEF8294D1A0EDA2B003EE93B /* LICENSE */; };
-		BEF829501A0EDA2B003EE93B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BEF8294E1A0EDA2B003EE93B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -244,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEF829501A0EDA2B003EE93B /* README.md in Sources */,
 				BE73441D1A0D9BE600BB04B8 /* GameViewController.m in Sources */,
 				BE7344151A0D9BE600BB04B8 /* AppDelegate.m in Sources */,
 				BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */,
