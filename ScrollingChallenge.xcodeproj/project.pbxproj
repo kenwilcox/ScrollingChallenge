@@ -17,6 +17,7 @@
 		BE7344251A0D9BE600BB04B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7344231A0D9BE600BB04B8 /* LaunchScreen.xib */; };
 		BE7344311A0D9BE600BB04B8 /* ScrollingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7344301A0D9BE600BB04B8 /* ScrollingChallengeTests.m */; };
 		BE73443B1A0ED4DA00BB04B8 /* desert_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73443A1A0ED4DA00BB04B8 /* desert_BG@2x.png */; };
+		BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF8294B1A0ED6E6003EE93B /* TileNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		BE73442F1A0D9BE600BB04B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE7344301A0D9BE600BB04B8 /* ScrollingChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingChallengeTests.m; sourceTree = "<group>"; };
 		BE73443A1A0ED4DA00BB04B8 /* desert_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desert_BG@2x.png"; sourceTree = "<group>"; };
+		BEF8294A1A0ED6E6003EE93B /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileNode.h; sourceTree = "<group>"; };
+		BEF8294B1A0ED6E6003EE93B /* TileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				BE7344211A0D9BE600BB04B8 /* Images.xcassets */,
 				BE7344231A0D9BE600BB04B8 /* LaunchScreen.xib */,
 				BE73440F1A0D9BE600BB04B8 /* Supporting Files */,
+				BEF8294A1A0ED6E6003EE93B /* TileNode.h */,
+				BEF8294B1A0ED6E6003EE93B /* TileNode.m */,
 			);
 			path = ScrollingChallenge;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			files = (
 				BE73441D1A0D9BE600BB04B8 /* GameViewController.m in Sources */,
 				BE7344151A0D9BE600BB04B8 /* AppDelegate.m in Sources */,
+				BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */,
 				BE7344181A0D9BE600BB04B8 /* GameScene.m in Sources */,
 				BE7344121A0D9BE600BB04B8 /* main.m in Sources */,
 			);
@@ -426,6 +432,7 @@
 				BE7344361A0D9BE600BB04B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE7344371A0D9BE600BB04B8 /* Build configuration list for PBXNativeTarget "ScrollingChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				BE7344391A0D9BE600BB04B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
