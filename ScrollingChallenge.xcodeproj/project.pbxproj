@@ -18,6 +18,8 @@
 		BE7344311A0D9BE600BB04B8 /* ScrollingChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7344301A0D9BE600BB04B8 /* ScrollingChallengeTests.m */; };
 		BE73443B1A0ED4DA00BB04B8 /* desert_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE73443A1A0ED4DA00BB04B8 /* desert_BG@2x.png */; };
 		BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF8294B1A0ED6E6003EE93B /* TileNode.m */; };
+		BEF8294F1A0EDA2B003EE93B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BEF8294D1A0EDA2B003EE93B /* LICENSE */; };
+		BEF829501A0EDA2B003EE93B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BEF8294E1A0EDA2B003EE93B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		BE73443A1A0ED4DA00BB04B8 /* desert_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desert_BG@2x.png"; sourceTree = "<group>"; };
 		BEF8294A1A0ED6E6003EE93B /* TileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileNode.h; sourceTree = "<group>"; };
 		BEF8294B1A0ED6E6003EE93B /* TileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileNode.m; sourceTree = "<group>"; };
+		BEF8294D1A0EDA2B003EE93B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BEF8294E1A0EDA2B003EE93B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 		BE7344031A0D9BE600BB04B8 = {
 			isa = PBXGroup;
 			children = (
+				BEF8294D1A0EDA2B003EE93B /* LICENSE */,
+				BEF8294E1A0EDA2B003EE93B /* README.md */,
 				BE73440E1A0D9BE600BB04B8 /* ScrollingChallenge */,
 				BE73442D1A0D9BE600BB04B8 /* ScrollingChallengeTests */,
 				BE73440D1A0D9BE600BB04B8 /* Products */,
@@ -215,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF8294F1A0EDA2B003EE93B /* LICENSE in Resources */,
 				BE73443B1A0ED4DA00BB04B8 /* desert_BG@2x.png in Resources */,
 				BE7344251A0D9BE600BB04B8 /* LaunchScreen.xib in Resources */,
 				BE7344221A0D9BE600BB04B8 /* Images.xcassets in Resources */,
@@ -237,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF829501A0EDA2B003EE93B /* README.md in Sources */,
 				BE73441D1A0D9BE600BB04B8 /* GameViewController.m in Sources */,
 				BE7344151A0D9BE600BB04B8 /* AppDelegate.m in Sources */,
 				BEF8294C1A0ED6E6003EE93B /* TileNode.m in Sources */,
